@@ -33,6 +33,8 @@ license: ""
   <a href="https://meshgradient.in/" target="_blank"><img alt="React" src="https://img.shields.io/badge/-Mesh·Y-175ddc?style=for-the-badge&logoColor=white" /></a>
 </p>
 
+---
+
 > 在线生成波形图片，支持自定义波形大小、数量、颜色、尺寸，能导出 PNG 格式或者拷贝 SVG 代码。
 
 {{< image src="svgwave.webp" width="100%" >}}

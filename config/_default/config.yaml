@@ -1,0 +1,110 @@
+baseURL: https://blog.rayw.tech/
+title: Ray's Blog
+
+# Uncomment when not installing with Hugo Modules
+# theme: eureka
+# Comment when not installing with Hugo Modules
+theme: DoIt
+# If you cannot access the Github mirror, you can also use the Gitee mirror: gitee.com/wangchucheng/hugo-eureka
+
+enableEmoji: true
+enableGitInfo: false
+
+defaultContentLanguage: zh-cn
+languageCode: zh-CN
+hasCJKLanguage: true
+
+# Uncomment for google analytics
+# googleAnalytics: UA-123-45
+
+markup:
+  # Do not modify markup.highlight
+  highlight:
+    codeFences: true
+    noClasses: false
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+  author: authors
+
+author:
+  name: Ray
+
+params:
+  version: 0.2.X
+  defaultTheme: auto
+  images:
+    - /images/avatar.webp
+  keywords:
+    - Ray
+    - Technology
+    - Database
+  app:
+    title: Ray's Blog
+  search:
+    enable: true
+    type: fuse
+    highlightTag: em
+  header:
+    title:
+      pre: '<i class="fas fa-code"></i>'
+      name: Ray's Blog
+    desktopMode: fixed
+    themeChangeMode: select
+  footer:
+    enable: true
+    author: true
+    hugo: false
+  home:
+    profile:
+      enable: true
+      avatarURL: /images/avatar.webp
+      title: Ray (@fgprodigal)
+      subtitle: Love technology, love life.
+      typeit: true
+      social: true
+    rss: 10
+    posts:
+      enable: true
+      paginate: 10
+  social:
+    github: fgprodigal
+    Email: fgprodigal@gmail.com
+    rss: true
+  section:
+    paginate: 20
+    rss: 10
+  page:
+    ruby: true
+    fraction: true
+    fontawesome: true
+    linkToMarkdown: true
+    code:
+      maxShownLines: 20
+    share:
+      enable: true
+      Twitter: true
+      Weibo: true
+    toc:
+      enable: true
+      auto: true
+  typeit:
+    duration: -1
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

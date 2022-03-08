@@ -1,0 +1,14 @@
+main:
+  - name: 文章
+    url: /posts
+    weight: 1
+  - name: 分类
+    url: /categories
+    weight: 2
+  - name: 关于
+    url: /about
+    weight: 3
+  - name:
+    pre: <i class='fab fa-github fa-fw'></i>
+    url: https://github.com/fgprodigal
+    weight: 4

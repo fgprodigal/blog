@@ -21,7 +21,7 @@ toc:
   enable: false
 math:
   enable: false
-lightgallery: false
+lightgallery: true
 license: ""
 ---
 

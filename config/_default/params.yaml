@@ -2,7 +2,7 @@ version: 0.2.X
 defaultTheme: auto
 enablePWA: true
 images:
-  - /images/avatar.webp
+  - /images/avatar.png
 keywords:
   - Ray
   - Technology
@@ -26,7 +26,7 @@ footer:
 home:
   profile:
     enable: true
-    avatarURL: /images/avatar.webp
+    avatarURL: /images/avatar.png
     title: Ray (@fgprodigal)
     subtitle: Love technology, love life.
     typeit: true

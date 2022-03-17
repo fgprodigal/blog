@@ -15,7 +15,7 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 
 featuredImage: false
-featuredImagePreview: "featured-image-preview.png"
+featuredImagePreview: "featured-image-preview.webp"
 
 toc:
   enable: false
@@ -33,7 +33,7 @@ license: ""
 
 你可以一次性拷贝很多个不同类型的镜像文件，Ventoy 会在启动时显示一个菜单来供你进行选择。
 
-{{< image src="ventoy_screen_uefi.png" width="100%" >}}
+{{< image src="ventoy_screen_uefi.webp" width="100%" >}}
 
 你还可以在 Ventoy 的界面中直接浏览并启动本地硬盘中的 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件。
 

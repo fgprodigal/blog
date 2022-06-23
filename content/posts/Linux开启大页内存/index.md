@@ -35,7 +35,7 @@ GIMR 和大页内存：Oracle GI 安装的时候会包括 Grid Infrastructure Ma
 可以用下面的方法来查看默认的大页大小
 
 ```console
-# grep Hugepagesize proc/meminfo
+# grep Hugepagesize /proc/meminfo
 ```
 
 例如，如果/proc/meminfo 显示的大页大小为 2M，所有实例的 SGA 加在一起的大小是 1.6G，则 vm.nr_hugepages 内核参数的值应当设置为 820(1.6GB/2M=819.2)
@@ -138,7 +138,7 @@ GIMR 和大页内存：Oracle GI 安装的时候会包括 Grid Infrastructure Ma
     KERN=`uname -r | awk -F. '{ printf("%d.%d\n",$1,$2); }'`
 
     # Find out the HugePage size
-    HPG_SZ=`grep Hugepagesize proc/meminfo | awk '{print $2}'`
+    HPG_SZ=`grep Hugepagesize /proc/meminfo | awk '{print $2}'`
 
     if [ -z "$HPG_SZ" ];then
         echo "The hugepages may not be supported in the system where the script is being executed."
